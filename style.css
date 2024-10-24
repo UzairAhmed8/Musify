@@ -1,0 +1,278 @@
+body{
+    background-color: #171717;
+    color: #474747;
+}
+.head img{
+    height: 75px;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #171717;
+    width: 75px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.head img:hover{
+    box-shadow: 5px 10px 10px white;
+    transition: 0.5s;
+}
+.head >.home{
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.head >.searchbar{
+    display: inline-block;
+    margin-left: 10px;
+}
+.head >.pri{
+    display: inline-block;
+    border: 1px solid #171717;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 450px;
+}
+.head >.pri:hover{
+    background-color: whitesmoke;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.head >.pri-2{
+    display: inline-block;
+    background-color: #171717;
+    border: 1px solid #171717;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+.head >.pri-2:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: lime;
+    color: black;
+}
+.head >.bell >.bell-2{
+    display: inline-block;
+    height: 55px;
+    width: 65px;
+}
+.head >.bell >.bell-2:hover{
+    box-shadow: none;
+    /* color: white; */
+    transition: 0.5s;
+}
+.head >.pfp{
+    border: 1px solid lime;
+    display: inline-block;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    background-color: lime;
+    padding: 7px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.head >.pfp:hover{
+    background-color: green;
+    color: whitesmoke;
+    box-shadow: 1px 1px 10px lime;
+}
+.sidebar{
+    display: inline-block;
+    height: 720px;
+    width: 250px;
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.sidebar >.lib{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidebar >.lib:hover{
+    color: white;
+    text-shadow: 1px 1px 10px whitesmoke;
+    transition: 0.5s;
+}
+.sidebar >.plus{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    margin-left: 65px;
+}
+.sidebar >.plus:hover{
+    color: white;
+    background-color: #474747;
+    text-shadow: 1px 1px 10px whitesmoke;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+.sidebar >.arr{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.sidebar >.arr:hover{
+    color: white;
+    background-color: #474747;
+    text-shadow: 1px 1px 10px whitesmoke;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+.sidebar >.play-list{
+    color: white;
+    font-size: 14.9px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #373733;
+    background-color: #373733;
+    border-radius: 20px;
+    padding: 7px;
+}
+.sidebar >.play-list:hover{
+    background-color: #474747;
+    color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 1px 10px #373733;
+    text-shadow: 1px 1px 10px white;
+}
+.sidebar >#art{
+    margin-left: 5px;
+}
+.sidebar >#alb{
+    margin-left: 5px;
+}
+.sidebar >.search-2{
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    border: 1px solid #242424;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sidebar >.search-2:hover{
+    background-color: whitesmoke;
+    text-shadow: #474747;
+    box-shadow: 2px 1px 10px white;
+    transition: all 0.5s ease-in-out;
+}
+.sidebar >.recent{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #242424;
+    margin-left: 145px;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #373733;
+}
+.sidebar >.recent:hover{
+    background-color: #474747;
+    box-shadow: whitesmoke;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    text-shadow: 1px 1px 10px white;
+}
+.sidebar >.like-img >.like-img-2{
+    /* display: inline-block; */
+    border: 1px solid #242424;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 400px;
+    margin-left: 17px;
+}
+.sidebar >.like-img >.text-1{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+    padding: initial;
+}
+.sidebar >.like-img{
+    height: 50px;
+    width: 65px;
+    padding: 10px 10px 10px 10px;
+}
+.sidebar >.like-img:hover .like-img-2{
+    position: relative  ;
+    background-color: rgb(189, 138, 233);
+    border-radius: 25px;
+    height: 50px;
+    width: 60px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 1px 10px #474747;
+    padding: 10px;
+}
+.sidebar >.follow{
+    display: flex;
+    height: 55px;
+    width: 76px;
+    border: 1px solid #242424;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.sidebar >.follow:hover{
+    background-color: rgb(127, 60, 251);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 7px;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+.sidebar >.texs{
+    border: 1px solid rgb(97, 249, 89);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 7px;
+    font-size: 15px;
+    background-color: rgb(97, 249, 89);
+    color: black;
+}
+.sidebar >.texs:hover{
+    background-color: rgb(28, 107, 24);
+    color: rgb(32, 31, 31);
+    border: 1px solid rgb(28, 107, 24);
+    transition: all 0.5s ease-in-out;
+}
+.mid-home{
+    display: inline-block;
+    height: 750px;
+    width: 950px;
+    border: 1px solid #242424;
+    background-color: #242424;
+    margin-left: 15px;
+    border-radius: 20px;
+    padding: 15px;
+}

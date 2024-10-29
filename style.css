@@ -543,3 +543,68 @@ body{
     box-shadow: 1px 1px 10px #373733;
     transition: all 0.3s ease-in-out;
 }
+.fyp{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.fyp:hover{
+    /* color: rgb(194, 194, 194); */
+    text-decoration: underline;
+    transition: all 0.1s ease-in-out;
+}
+.dail-1{
+    display: inline-block;
+    height: 230px;
+    width: 190px;
+    /* background-color: red; */
+    margin-left: 50px;
+    padding: 7px;
+    border-radius: 7px;
+    background-size: cover;
+}
+.dail-1 >img{
+    height: 170px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.dail-1:hover{
+    background-color: #373733;
+}
+.dail-1 p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 50%;
+}
+.dail-2{
+    display: inline-block;
+    height: 230px;
+    width: 190px;
+    /* background-color: red; */
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    background-size: cover;
+}
+.dail-2 >img{
+    height: 170px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.dail-2:hover{
+    background-color: #373733;
+}
+.dail-2 p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 50%;
+}
